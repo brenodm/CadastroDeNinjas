@@ -1,0 +1,30 @@
+2025-07-27 20:12:01.742621-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]""flyway_schema_history"""; SQL statement:
+"flyway_schema_history" [42000-232]
+2025-07-27 20:22:04.863644-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO TB_CADASTRO (id, email, idade, nome, missoes_id, rank)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO TB_CADASTRO (id, email, idade, nome, missoes_id, rank) [42001-232]
+2025-07-27 20:22:07.421923-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO TB_CADASTRO (id, email, idade, nome, missoes_id, rank)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO TB_CADASTRO (id, email, idade, nome, missoes_id, rank) [42001-232]
+2025-07-27 20:22:09.248835-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO TB_CADASTRO (id, email, idade, nome, missoes_id, rank)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO TB_CADASTRO (id, email, idade, nome, missoes_id, rank) [42001-232]
+2025-07-27 20:25:37.140112-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE TB_CADASTRO\000d\000aIDADE [*]= 35\000d\000aWHERE ID = 3"; expected "SET"; SQL statement:
+UPDATE TB_CADASTRO
+IDADE = 35
+WHERE ID = 3 [42001-232]
+2025-07-27 20:25:48.550068-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE TB_CADASTRO\000d\000aidade [*]= 35\000d\000aWHERE id = 3"; expected "SET"; SQL statement:
+UPDATE TB_CADASTRO
+idade = 35
+WHERE id = 3 [42001-232]
+2025-07-27 20:25:55.203146-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE TB_CADASTRO\000d\000aidade [*]= 35\000d\000aWHERE id = 3"; expected "SET"; SQL statement:
+UPDATE TB_CADASTRO
+idade = 35
+WHERE id = 3 [42001-232]
+2025-07-27 20:26:18.403641-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TB_CADASTRO"; expected "TRUNCATE"; SQL statement:
+TB_CADASTRO [42001-232]
