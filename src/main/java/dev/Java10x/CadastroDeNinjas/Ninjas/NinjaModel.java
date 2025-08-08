@@ -1,5 +1,4 @@
 package dev.Java10x.CadastroDeNinjas.Ninjas;
-
 import dev.Java10x.CadastroDeNinjas.Missoes.MissoesModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -18,7 +17,7 @@ public class NinjaModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column (name= "id")
-    long id;
+    private long id;
 
     @Column (name= "nome")
     private String nome;
@@ -32,5 +31,9 @@ public class NinjaModel {
     @ManyToOne
     @JoinColumn(name = "missoes_id")
     private MissoesModel missoes;
+
+    @Column (name= "rank")
+    private String rank;
+
 
 }
