@@ -1,7 +1,7 @@
 package dev.Java10x.CadastroDeNinjas.Missoes;
 
-import dev.Java10x.CadastroDeNinjas.Ninjas.NinjaDTO;
-import dev.Java10x.CadastroDeNinjas.Ninjas.NinjaModel;
+import dev.Java10x.CadastroDeNinjas.Missoes.MissoesDTO;
+import dev.Java10x.CadastroDeNinjas.Missoes.MissoesModel;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -15,6 +15,7 @@ public class MissoesMapper {
         missoesModel.setDificuldade(missoesDTO.getDificuldade());
         missoesModel.setNinja(missoesDTO.getNinja());
 
+
         return missoesModel;
 
     }
@@ -27,10 +28,8 @@ public class MissoesMapper {
         missoesDTO.setDificuldade(missoesModel.getDificuldade());
         missoesDTO.setNinja(missoesModel.getNinja());
 
-
         return missoesDTO;
 
     }
-
 
 }
