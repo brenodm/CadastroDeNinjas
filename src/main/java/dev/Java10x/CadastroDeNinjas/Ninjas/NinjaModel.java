@@ -1,5 +1,4 @@
 package dev.Java10x.CadastroDeNinjas.Ninjas;
-import dev.Java10x.CadastroDeNinjas.Missoes.MissoesModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
@@ -32,7 +31,7 @@ public class NinjaModel {
 
     @ManyToOne
     @JoinColumn(name = "missoes_id")
-    private MissoesModel missoes;
+    private dev.Java10x.CadastroDeNinjas.Missoes.MissoesModel missoes;
 
     @Column (name= "rank")
     private String rank;
